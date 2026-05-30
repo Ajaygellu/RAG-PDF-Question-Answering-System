@@ -36,7 +36,7 @@ def load_embeddings():
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(page_title="PDF RAG Chatbot", page_icon="📄")
-st.title("📄 RAG-PDF-Question-Answering-System")
+st.title("📄 PDF Insight")
 
 # ---------------- PDF UPLOAD ----------------
 uploaded_file = st.file_uploader("Upload a PDF to get started", type=["pdf"])
